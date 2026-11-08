@@ -1,0 +1,28 @@
+{
+  "source_repo": "jesseward/discogs-oauth-example",
+  "source_url": "https://github.com/jesseward/discogs-oauth-example",
+  "audit_date": "2026-11-08T10:01:58.882420",
+  "ai_model": "gemini-2.0-flash",
+  "findings_count": 2,
+  "severity_breakdown": {
+    "HIGH": 2
+  },
+  "findings": [
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "discogs_example.py",
+      "line": 20
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "discogs_client_example.py",
+      "line": 22
+    }
+  ]
+}
